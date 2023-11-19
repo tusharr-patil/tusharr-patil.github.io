@@ -7,7 +7,7 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tech with Tushar</title>
+        <title>Hello World!</title>
         <link>https://tusharr-patil.github.io/</link>
         <description>Here to share my learnings with you :)</description>
         <generator>Hugo 0.120.4 https://gohugo.io/</generator>
@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 19 Nov 2023 17:22:16 &#43;0530</lastBuildDate>
+        <lastBuildDate>Sun, 19 Nov 2023 17:33:07 &#43;0530</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://tusharr-patil.github.io/rss.xml" />
         
