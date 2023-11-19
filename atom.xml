@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Tech with Tushar</title>
     <subtitle type="html">Here to share my learnings with you :)</subtitle>
-    <updated>2023-11-19T17:17:04&#43;05:30</updated>
+    <updated>2023-11-19T17:19:43&#43;05:30</updated>
     <id>https://tusharr-patil.github.io/</id>
     <link rel="alternate" type="text/html" href="https://tusharr-patil.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://tusharr-patil.github.io/atom.xml" />
@@ -16,4 +16,44 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.120.4">Hugo</generator>
+        <entry>
+            <title type="text">Hello World</title>
+            <link rel="alternate" type="text/html" href="https://tusharr-patil.github.io/posts/hello-world/" />
+            <id>https://tusharr-patil.github.io/posts/hello-world/</id>
+            <updated>2023-11-19T17:19:20&#43;05:30</updated>
+            <published>2023-11-17T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Tushar</name>
+                    <uri>https://tusharr-patil.github.io</uri>
+                    <email>tuspatil316@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">This is my post.
+Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</summary>
+            
+                <content type="html">&lt;p&gt;This is my post.&lt;/p&gt;
+&lt;p&gt;Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;ldquo;Lorem ipsum dolor sit amet..&amp;rdquo;, comes from a line in section 1.10.32.&lt;/p&gt;
+&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo; by Cicero are also reproduced in their exact original form, accompanied by Eng&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://tusharr-patil.github.io/tags/coding/" term="Coding" label="Coding" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
 </feed>
