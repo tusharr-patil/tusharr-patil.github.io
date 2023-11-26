@@ -2,20 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tusharr-patil.github.io/about/</loc>
-    <lastmod>2023-11-19T17:22:11+05:30</lastmod>
+    <loc>https://tusharr-patil.github.io/categories/</loc>
+    <lastmod>2023-11-26T21:28:43+05:30</lastmod>
+  </url><url>
+    <loc>https://tusharr-patil.github.io/posts/data-consistency/</loc>
+    <lastmod>2023-11-26T21:28:43+05:30</lastmod>
+  </url><url>
+    <loc>https://tusharr-patil.github.io/tags/cs-fundamentals/</loc>
+    <lastmod>2023-11-26T21:28:43+05:30</lastmod>
   </url><url>
     <loc>https://tusharr-patil.github.io/</loc>
-    <lastmod>2023-11-19T17:43:49+05:30</lastmod>
-  </url><url>
-    <loc>https://tusharr-patil.github.io/posts/hello-world/</loc>
-    <lastmod>2023-11-19T17:43:49+05:30</lastmod>
+    <lastmod>2023-11-26T21:28:43+05:30</lastmod>
   </url><url>
     <loc>https://tusharr-patil.github.io/posts/</loc>
-    <lastmod>2023-11-19T17:43:49+05:30</lastmod>
+    <lastmod>2023-11-26T21:28:43+05:30</lastmod>
   </url><url>
-    <loc>https://tusharr-patil.github.io/categories/</loc>
+    <loc>https://tusharr-patil.github.io/tags/system-design/</loc>
+    <lastmod>2023-11-26T21:28:43+05:30</lastmod>
+  </url><url>
+    <loc>https://tusharr-patil.github.io/categories/system-design-fundamentals/</loc>
+    <lastmod>2023-11-26T21:28:43+05:30</lastmod>
   </url><url>
     <loc>https://tusharr-patil.github.io/tags/</loc>
+    <lastmod>2023-11-26T21:28:43+05:30</lastmod>
+  </url><url>
+    <loc>https://tusharr-patil.github.io/about/</loc>
+    <lastmod>2023-11-26T18:53:10+05:30</lastmod>
+  </url><url>
+    <loc>https://tusharr-patil.github.io/posts/hello-world/</loc>
+    <lastmod>2023-11-26T21:16:46+05:30</lastmod>
   </url>
 </urlset>

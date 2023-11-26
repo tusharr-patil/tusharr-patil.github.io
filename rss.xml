@@ -23,10 +23,98 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 19 Nov 2023 19:12:46 &#43;0530</lastBuildDate>
+        <lastBuildDate>Sun, 26 Nov 2023 21:29:30 &#43;0530</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://tusharr-patil.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Consistency Levels in Distrubuted System</title>
+                <link>https://tusharr-patil.github.io/posts/data-consistency/</link>
+                <guid isPermaLink="true">https://tusharr-patil.github.io/posts/data-consistency/</guid>
+                <pubDate>Sun, 26 Nov 2023 19:02:09 &#43;0530</pubDate>
+                
+                    <author>tuspatil316@gmail.com (Tushar)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;&lt;b&gt;Consistency refers to how fresh a particular piece of data is.&lt;/b&gt; Technically speaking, every read requests we receive to our distrubuted severs, must return same piece of data.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Consistency levels refers to how fresh we want our data to be, when a user sends a read request. &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;There will be a tradeoff between consistency and efficiency in Consistency Levels. So, it is necessary to choose the consistency level depending upon the requirement.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Linearizable/Atomic Consistency&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For every read request we receive, we want to show fresh data.&lt;/p&gt;
+&lt;p&gt;To achieve this, every request (read or write) must be in order. And to maintain the order, we use a single threaded single sever.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;This will have strong consistency. But the efficiency is lowest.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Usecase: Banking Transactions, Product Availability Update, etc.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Eventual Consistency&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For a read request, we will send stale data, but eventually when the data gets updated, we will send fresh data.&lt;/p&gt;
+&lt;p&gt;The system is not consistency in the beginning, but eventually, it will have consistency.&lt;/p&gt;
+&lt;p&gt;To achieve this, we can process requests parallely (using multiple severs) or concurrently (using multiple threads).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;The consistency is lowest, but efficiency is highest.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Usecase: Like, Comments, DNS, Sharing Post on social apps, etc.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Causal Consistency&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Based upon the relation of operations, we execute the related operations in order.&lt;/p&gt;
+&lt;p&gt;We can find the relation of operations by checking the type of data on which the operations are doing read/write operation.&lt;/p&gt;
+&lt;p&gt;If we have two operations:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;write x = &amp;lsquo;John&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;read x&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Notice, that both requests are going to perform operation on same data item. So, we will execute these two requests in order in a server/thread.&lt;/p&gt;
+&lt;p&gt;But, if we have:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;write x = &amp;lsquo;John&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;write y = &amp;lsquo;Cena&amp;rsquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Notice, that both requests are performing operation on different piece of data item, so we will execute these two requests on seperate server/thread.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Causal Consistency is better than Linearizable interms of efficiency and Eventual Consistency in terms of consistency.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;But the drawback is that the Causal Consistency will fail for aggregation, and will showstale data for aggregation operations.&lt;/p&gt;
+&lt;p&gt;The reason why it fails is because it will not be able to find relationship between aggregation operations, and it might treat the aggregation operation as related.&lt;/p&gt;
+&lt;p&gt;Usecase: Google Docs (multiple edits), chat systems, multi-player games, etc.&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://tusharr-patil.github.io/categories/system-design-fundamentals/">System Design Fundamentals</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://tusharr-patil.github.io/tags/system-design/">System Design</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://tusharr-patil.github.io/tags/cs-fundamentals/">CS Fundamentals</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Hello World</title>
